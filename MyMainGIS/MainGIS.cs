@@ -169,7 +169,7 @@ namespace MyMainGIS
             _pageLayoutControl.CurrentTool = null;
 
             //主界面系统名称，获取目录下的SystemName.txt[可灵活设置]
-            string sUIName = "县域尺度低丘缓坡山地开发土地优化布局系统";
+            string sUIName = "“多规合一”数据管理系统";
             
             string sTxtFileName = System.Windows.Forms.Application.StartupPath+"\\SystemName.txt";
 
@@ -1265,12 +1265,9 @@ namespace MyMainGIS
         }
         #endregion
 
-        private void MainMenu_Click(object sender, EventArgs e)
-        {
 
-        }
 
         #endregion
-       
+
     }
 }
